@@ -19,7 +19,6 @@ html, body {
 .conversation-view {
   width: 100vw;
  padding: 20px;
- position: fixed;
  overflow: scroll;
 }
 
@@ -58,6 +57,8 @@ html, body {
   border-radius: 0px 14px 14px 14px;
   padding: 15px;
   font-weight: 400;
+  max-width: 90%;
+  font-size: 18px;
 }
 
 .chat-content {
@@ -66,6 +67,8 @@ html, body {
   background-color: hsl(204, 66%, 65%);
   border-radius: 14px 0px 14px 14px;
   color: #ffffff;
+  font-size: 16px;
+  max-width: 90%;
 }
 
 
@@ -193,3 +196,102 @@ body {
 .send__box-img {
     height: 25.5px;
 }
+
+
+
+.header-home{
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to bottom right, #D5EBFD, #B0DAFE);
+  background-image: url(../assets/backgrd.svg); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.logo-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  padding-left: 55px;
+  padding-right: 55px;
+
+
+}
+
+.header-logo {
+  height: 50px;
+  width: 70px;
+}
+
+.header-box {
+  display: block;
+  margin-left: 10%;
+  margin-top: 15%;
+}
+
+.heading__primary--main {
+  display: block;
+  font-size: 50px;
+  line-height: normal;
+  color: #071B4A;
+}
+
+.heading__primary--sub {
+  display: block;
+  width: 60%;
+  font-size: 18px;
+  font-weight: 100;
+  color: #071B4A;
+  margin-bottom: 30px;
+}
+
+.btn, .btn:link, .btn:visited {
+  font-size: 22px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn--white {
+  color: #ffffff;
+  background-color: #3093D5;
+  padding: 16px 20px;
+  border-radius: 0px 20px 20px 20px;
+}
+
+.btn--blue {
+  color: #ffffff;
+  background-color: transparent;
+  padding: 12px 20px;
+  border-radius: 0px 20px 20px 20px;
+  border: 1px solid;
+}
+
+
+.btn--blue:hover {
+  /* box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); */
+  border: 1px solid #3093D5;
+  color: #2a8bcc;
+  transition: all .3s;
+}
+
+
+.btn--white:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 1rem 2rem #3093d571;
+  color: #ffffff;
+  transition: all .3s;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+
+

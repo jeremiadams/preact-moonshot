@@ -54,7 +54,7 @@
        
         if(entity.includes("get")){
           pusher.trigger('bot', 'bot-response', {
-            message:`There is a ${percentage}% that `+
+            message:``+
               responses[entity][
                 Math.floor(Math.random() * responses[entity].length)
               ],

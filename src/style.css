@@ -313,8 +313,19 @@ a {
   text-decoration: none;
 }
 
+@media (max-width: 850px) {
+  .btn {
+    padding: 10px 20px;
+  }
 
+  .btn--blue {
+    visibility: hidden;
+  }
 
+  .text__input {
+    width: 75vw;
+  }
+}
 
 
 

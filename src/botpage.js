@@ -93,7 +93,7 @@ export default class Botpage extends Component {
     );
 
     return (
-      <div>
+      <div class="body__box">
         
         <div class="header">
           <div class="header__logo-box">
@@ -106,7 +106,7 @@ export default class Botpage extends Component {
             <div class="header__text-secondary"><p>online</p></div>
           </div>
         </div>
-        <div>
+        <div class="conversation__box">
           <div class="conversation-view">{chat}</div>
           <div class="input__box">
             <div>

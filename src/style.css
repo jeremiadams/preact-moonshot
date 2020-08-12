@@ -1,3 +1,22 @@
+@font-face {
+  font-family: 'Circular';
+  src: url(/assets/CircularStd-Medium.ttf);
+  font-family: normal;
+}
+
+@font-face {
+  font-family: 'Circular';
+  src: url(/assets/CircularStd-Book.ttf);
+  font-family: normal;
+}
+
+@font-face {
+  font-family: 'Circular';
+  src: url(/assets/CircularStd-Bold.ttf);
+  font-family: normal;
+}
+
+
 html, body {
   font: 14px/1.21 'Circular', sans-serif;
   font-weight: 400;
@@ -10,16 +29,18 @@ html, body {
   padding: 0;
 }
 
+
+
 .chat-window {
   width: 750px;
   margin: auto;
   border: 1px solid #eee;
 }
 
+
 .conversation-view {
   width: 100vw;
  padding: 20px;
- overflow: scroll;
 }
 
 .message-box {
@@ -129,10 +150,10 @@ body {
 
 .input__box {
     display: flex;
-    position: absolute;
+    justify-content: space-between;
+    position: fixed;
     bottom: 20px;
     left: 20px;
-    justify-content: space-between;
 }
 
 .send__btn-box {
@@ -141,6 +162,7 @@ body {
   width: 50px;
   border-radius: 50%;
   text-align: center;
+  margin-left: 50%;
 }
 
 .send__btn {
@@ -157,6 +179,7 @@ body {
     border: 0px;
     border-radius: 6px 0px 6px 6px;
     background-color: #EAEBEF;
+    border: 1px solid #B0DAFE;
     font-size: 16px;
     color: #071B4A;
     outline: 0px;

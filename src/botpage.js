@@ -9,7 +9,7 @@ export default class Botpage extends Component {
     super(props);
     this.state = {
       userMessage: '',
-      conversation: [{   user: 'ai',text:"Hey, I am Julia, a Medical Assistant",},{   user: 'ai',text:"Enter your symptoms, e.g (Cough, Headache, e.t.c)",},{   user: 'ai',text:"Here are some common symptoms to assist you: COUGH, RUNNY OR BLOCKED NOSE, FEVER, CHILLS, HEADACHE, SORE THROAT, MUSCLE OR BODY PAIN, NAUSEA, LOSS OF TASTE OR SMELL, TIREDNESS, EARACHE, CONSTIPATION, STOMACH ACHE, TOOTHACHE, BAD BREADTH,  or any other symptoms you may be experiencing",}],
+      conversation: [{   user: 'ai',text:"Hey, I am Julia, a Medical Assistant",},{   user: 'ai',text:"Enter your symptoms, e.g (Cough, Headache, e.t.c)",},{   user: 'ai',text:"Here are some common symptoms to assist you: COUGH, RUNNY OR BLOCKED NOSE, FEVER, CHILLS, HEADACHE, SORE THROAT, MUSCLE OR BODY PAIN, NAUSEA, LOSS OF TASTE OR SMELL, TIREDNESS,DIFFICULTY SLEEPING, EARACHE, CONSTIPATION, STOMACH ACHE, TOOTHACHE, BAD BREADTH,  or any other symptoms you may be experiencing",}],
     };
 
     this.handleChange = this.handleChange.bind(this);

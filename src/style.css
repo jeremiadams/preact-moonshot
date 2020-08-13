@@ -41,6 +41,7 @@ html, body {
 .conversation-view {
   width: 100vw;
  padding: 20px;
+ padding-bottom: 60px;
 }
 
 .message-box {
